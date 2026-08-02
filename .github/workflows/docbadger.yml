@@ -27,6 +27,6 @@ jobs:
         uses: netanyaj/docbadger@main
         with:
           llm_api_key: ${{ secrets.OPENROUTER_API_KEY }}
-          model: google/gemini-2.5-flash
+          model: openai/gpt-4o
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
