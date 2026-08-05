@@ -1,0 +1,21 @@
+{
+  "7a204d68bdda": {
+    "finding_id": "7a204d68bdda",
+    "pr_number": 1,
+    "repo_full_name": "netanyaj/docbadger-test-repo",
+    "qualified_id": "src/utils.py::send_notification",
+    "heading_path": "Notification Utility > Function > `send_notification(user, message)`",
+    "kind": "correction_ready",
+    "diagnosis": "The proposed new text accurately reflects the addition of the 'priority' parameter with a default value of 'normal' in the function signature. The style is consistent with the original documentation section.\nReplace: `### `send_notification(user, message)``\nWith: `### `send_notification(user, message, priority='normal')``",
+    "tier": "high",
+    "corrector_status": "proposed",
+    "validator_status": "approved",
+    "old_text": "### `send_notification(user, message)`",
+    "new_text": "### `send_notification(user, message, priority='normal')`",
+    "verdict": "accepted",
+    "reviewer_username": "netanyaj",
+    "reason_context": null,
+    "created_at": "2026-08-05T20:05:42.642519+00:00",
+    "updated_at": "2026-08-05T20:05:42.642519+00:00"
+  }
+}
